@@ -89,7 +89,7 @@ document.getElementById('apply-btn').addEventListener('click',function(){
     const success = document.getElementById('applied-text');
     const error = document.getElementById('error');
     const codeValue =input.value;
-    if(codeValue == 'tanviR'){
+    if(codeValue == 'SHANTO'){
         const total = document.getElementById('total-price');
         const totalAmount = parseFloat(total.innerText);
         const tax = (totalAmount *20)/100;
